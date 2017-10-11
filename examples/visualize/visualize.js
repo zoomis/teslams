@@ -9,7 +9,7 @@
 //
 require('pkginfo')(module, 'version');
 console.log( module.exports.version );
-var apiKey = 'AIzaSyBAQ9orToKfA-vAzbFjdyE-PIE86P2IKBY';
+var apiKey = 'AIzaSyBY79I229CwRN96pLSi2HDiMi7NJ5IH7Ug';
 
 function argchecker( argv ) {
     if (argv.db === true) throw 'MongoDB database name is unspecified. Use -d dbname or --db dbname';
